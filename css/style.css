@@ -1,0 +1,83 @@
+button {
+  border: 10px solid #000;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  margin: 0 -2px;
+  outline: none;
+  padding: 0;
+}
+.correct{
+  background-image: url("../images/correct.gif");
+}
+.youLose{
+  background-image: url("../images/loser.gif");
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+#green {
+  border-top-left-radius: 100%;
+  background: rgba(68, 254, 105, 0.4);
+}
+
+#red {
+  border-top-right-radius: 100%;
+  background: rgba(248, 51, 60, 0.4);
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+  background: rgba(252, 247, 15, 0.4);
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background: rgba(33, 29, 234, 0.4);
+}
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 620px;
+}
+section.blocked{
+pointer-events: none;
+}
+#red:hover,
+#red.lighton {
+  background: rgba(248, 51, 60, 1);
+}
+
+#green:hover,
+#green.lighton {
+  background: rgba(68, 254, 105, 1);
+}
+
+#yellow:hover,
+#yellow.lighton {
+  background: rgba(252, 247, 15, 1);
+}
+
+#blue:hover,
+#blue.lighton {
+  background: rgba(33, 29, 234, 1);
+}
+#counter {
+  background: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -108px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+}
